@@ -1,0 +1,11 @@
+# ignore Terraform provider files
+**/provider.tf
+
+# ignore Terraform state files
+**/*.tfstate
+
+# ignore Terraform backup files
+**/*.backup
+
+# ignore Terraform config directory
+**/.terraform/
